@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="json解析" />
+
+    <Button
+        android:id="@+id/button_bimp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片展示" />
+
+    <ImageView
+        android:id="@+id/imageView_tupian"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
