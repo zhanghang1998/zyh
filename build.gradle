@@ -5,6 +5,9 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
+    
+    
+    
         applicationId "zyh.com.day01"
         minSdkVersion 15
         targetSdkVersion 28
